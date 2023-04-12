@@ -1,0 +1,10 @@
+import re
+padrao = '^t.(15)a$'
+texto = 'tchanana tchanana'
+result = re.match( padrao,texto )
+total = re.findall( padrao,texto 0
+if result:
+ print( "Padrao encontrado", result )
+else:
+ print( "Padrao nao encontrado" )
+ print( total )
